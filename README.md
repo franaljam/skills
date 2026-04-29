@@ -31,9 +31,7 @@ Many skills in this repo are open source (Apache 2.0). We've also included the d
 ## Claude Code
 You can register this repository as a Claude Code Plugin marketplace by running the following command in Claude Code:
 ```
-/plugin add htt
+/plugin add https://github.com/anthropics/skills
 ```
 
----
-
-> **Personal Notes (fork):** I'm using this repo to learn how skills work and experiment with building custom skills for my own workflows. My main areas of interest are data analysis automation and document generation. Skills I'm actively exploring or plan to build are tracked in [NOTES.md](./NOTES.md).
+> **Personal note:** I forked this repo to experiment with building custom skills for my own workflows. The document skills (`docx`, `pptx`, `xlsx`) are particularly interesting as reference material for understanding how production skills are structured.
